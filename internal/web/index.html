@@ -1,0 +1,46 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Twitchberry Dashboard</title>
+    <meta name="description" content="A simple twitch streaming interface for your Raspberry Pi.">
+    <meta name="author" content="klausklapper">
+
+    <meta property="og:title" content="Twitchberry Dashboard">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="A simple twitch streaming interface for your Raspberry Pi.">
+
+    <link rel="icon" href="static/image/twitchberry.png">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link href="static/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="header"><h1>Twitchberry Dashboard</h1></div>
+    <div class="container">
+    <div class="centering major item">
+        <div class="frame">
+            <img src="static/image/twitchberry.png" />
+        </div>
+    </div>
+    <div class="centering item"><span class="large">Lightweight Twitch Control Center</span></div>
+    <div class="item segment" onclick="update()">
+        <div class="title">Twitch</div>
+        <div class="icon"><i class="fab fa-twitch fa-2x"></i></div>
+        <div class="info">Online since 03:23:11 ...</div>
+    </div>
+    <div class="offline item segment">
+        <div class="title">Infrared LED</div>
+        <div class="icon"><i class="far fa-lightbulb fa-2x"></i></div>
+        <div class="info">Not installed</div>
+    </div>
+    </div>
+    <script src="static/js/main.js"></script>
+</body>
+
+</html>
